@@ -55,7 +55,6 @@
             style="color: white"
             @click="copytext(link.link)"
           >
-            file_copy
           </span>
         </div>
         <div class="info__title">{{ link.link }}</div>
