@@ -50,12 +50,12 @@
     <div class="container_card">
       <div v-for="link in linksList" :key="link.id" class="info">
         <div class="info__icon">
-          <span
-            class="material-symbols-outlined"
+          <img
+            src="../assets//copy-svgrepo-com.svg"
+            alt="copy-img"
             style="color: white"
             @click="copytext(link.link)"
-          >
-          </span>
+          />
         </div>
         <div class="info__title">{{ link.link }}</div>
         <div class="info__close" @click="deletePost(link.id)">
